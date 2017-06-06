@@ -2,6 +2,9 @@
 
 > Generate beautiful random gradients
 
+<br/>
+<img src="https://cldup.com/S4sruO8J60.png" width="600"/>
+
 ## Install
 ```
 $ npm install --save random-gradient
@@ -21,10 +24,6 @@ gradient(uid)
 #### uid
 Type: `string`<br/>
 Required
-
-## Demo
-
-![](https://cldup.com/S4sruO8J60.png)
 
 ## Related
 
