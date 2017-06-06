@@ -1,0 +1,13 @@
+{
+  "name": "random-gradient",
+  "version": "0.0.0",
+  "description": "Generate beautiful random gradients",
+  "main": "index.js",
+  "repository": "git@github.com:bukinoshita/random-gradient.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "string-hash": "^1.1.3",
+    "tinycolor2": "^1.4.1"
+  }
+}
