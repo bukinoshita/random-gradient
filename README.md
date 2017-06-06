@@ -1,4 +1,4 @@
-# random-gradient
+# random-gradient [![Build Status](https://travis-ci.org/bukinoshita/random-gradient.svg?branch=master)](https://travis-ci.org/bukinoshita/random-gradient)
 
 > Generate beautiful random gradients
 
