@@ -6,8 +6,19 @@
   "repository": "git@github.com:bukinoshita/random-gradient.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "xo"
+  },
   "dependencies": {
     "string-hash": "^1.1.3",
     "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "semicolon": false,
+    "esnext": true,
+    "space": true
   }
 }
