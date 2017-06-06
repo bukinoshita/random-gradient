@@ -20,8 +20,8 @@ test('return different gradient with different uid', t => {
 
 test('throws error', t => {
   const error = t.throws(() => {
-		gradient()
-	}, TypeError)
+    gradient()
+  }, TypeError)
 
   t.is(error.message, 'uid is required')
 })

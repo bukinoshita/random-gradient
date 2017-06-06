@@ -20,9 +20,6 @@
   "xo": {
     "semicolon": false,
     "esnext": true,
-    "space": true,
-    "ignores": [
-      "__tests__/index.js"
-    ]
+    "space": true
   }
 }
