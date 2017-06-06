@@ -14,5 +14,5 @@ module.exports = uid => {
     return `linear-gradient(45deg, ${c1_} 10%, ${c2} 100%)`
   }
 
-  throw new Error('uid is required')
+  throw new TypeError('uid is required')
 }

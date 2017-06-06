@@ -7,18 +7,22 @@
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava -v"
   },
   "dependencies": {
     "string-hash": "^1.1.3",
     "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
+    "ava": "^0.19.1",
     "xo": "^0.18.2"
   },
   "xo": {
     "semicolon": false,
     "esnext": true,
-    "space": true
+    "space": true,
+    "ignores": [
+      "__tests__/index.js"
+    ]
   }
 }
