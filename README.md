@@ -12,10 +12,19 @@ $ npm install --save random-gradient
 
 ## Usage
 ```js
+// with React
+
 import gradient from 'random-gradient'
 
-gradient(uid)
-// => linear-gradient(45deg, #d4f906 10%, #06d4f9 100%)
+export default ({ name }) => {
+  const bgGradient = { background: gradient(name) }
+
+  return (
+    <div style={bgGradient}>
+      <h2>{name}</h2>
+    </div>
+  )
+}
 ```
 
 ## API
