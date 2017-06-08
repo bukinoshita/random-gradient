@@ -28,11 +28,16 @@ export default ({ name }) => {
 ```
 
 ## API
-### randomGradient(uid)
+### randomGradient(uid, type)
 
 #### uid
 Type: `string`<br/>
 Required
+
+#### type
+Type: `string`<br/>
+Default: `diagonal`<br/>
+Options: `diagonal`, `vertical`, `horizontal`, `radial`<br/>
 
 ## Related
 
