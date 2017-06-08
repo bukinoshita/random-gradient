@@ -13,7 +13,7 @@ module.exports = (uid, type = 'diagonal') => {
 
     switch (type) {
       case 'diagonal':
-        return `linear-gradient(45deg, ${c1_} 10%, ${c2} 100%)`
+        return `linear-gradient(to top right, ${c1_}, ${c2})`
         break
 
       case 'radial':
