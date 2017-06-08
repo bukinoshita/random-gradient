@@ -17,7 +17,7 @@ module.exports = (uid, type = 'diagonal') => {
         break
 
       case 'radial':
-        return `radial-gradient(${c1_}, ${c2})`
+        return `radial-gradient(circle, ${c1_}, ${c2})`
         break
     }
   }
