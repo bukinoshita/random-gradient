@@ -23,6 +23,10 @@ module.exports = (uid, type = 'diagonal') => {
       case 'horizontal':
         return `linear-gradient(${c1_}, ${c2})`
         break
+
+      case 'vertical':
+        return `linear-gradient(to right, ${c1_}, ${c2})`
+        break
     }
   }
 
