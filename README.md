@@ -25,6 +25,17 @@ export default ({ name }) => {
     </div>
   )
 }
+
+// with Vue
+
+import gradient from 'random-gradient'
+
+Vue.directive('random-gradient', {
+    inserted: function (el) {
+        // Using the element's "title" attribute, e.g.
+        el.style.backgroundImage = gradient(el.title);
+    }
+});
 ```
 
 ## API
