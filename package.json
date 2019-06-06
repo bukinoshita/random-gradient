@@ -14,8 +14,8 @@
     "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
-    "xo": "^0.18.2"
+    "ava": "0.19.1",
+    "xo": "0.18.2"
   },
   "xo": {
     "semicolon": false,
