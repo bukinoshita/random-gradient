@@ -435,9 +435,9 @@ atob@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
 
-ava@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-2.0.0.tgz#265f9a094f83d0a78c05654e37302645d59ca1fa"
+ava@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-2.1.0.tgz#158c5cdf48d1556caf0a9fdf96b61af9e566c153"
   dependencies:
     "@ava/babel-preset-stage-4" "^3.0.0"
     "@ava/babel-preset-transform-test-files" "^5.0.0"
@@ -455,7 +455,7 @@ ava@2.0.0:
     arrify "^2.0.1"
     bluebird "^3.5.5"
     chalk "^2.4.2"
-    chokidar "^3.0.0"
+    chokidar "^3.0.1"
     chunkd "^1.0.0"
     ci-parallel-vars "^1.0.0"
     clean-stack "^2.1.0"
@@ -469,7 +469,7 @@ ava@2.0.0:
     currently-unhandled "^0.4.1"
     debug "^4.1.1"
     del "^4.1.1"
-    dot-prop "^5.0.0"
+    dot-prop "^5.0.1"
     emittery "^0.4.1"
     empower-core "^1.2.0"
     equal-length "^1.0.0"
@@ -494,7 +494,7 @@ ava@2.0.0:
     md5-hex "^3.0.0"
     meow "^5.0.0"
     micromatch "^4.0.2"
-    ms "^2.1.1"
+    ms "^2.1.2"
     observable-to-promise "^1.0.0"
     ora "^3.4.0"
     package-hash "^4.0.0"
@@ -696,7 +696,7 @@ chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
 
-chokidar@^3.0.0:
+chokidar@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.0.1.tgz#98fe9aa476c55d9aea7841d6325ffdb30e95b40c"
   dependencies:
@@ -1092,9 +1092,9 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
-dot-prop@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.0.0.tgz#64b7968af349c3a9f966aa12658dbd5829f6b953"
+dot-prop@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.0.1.tgz#e26c283bd1f10aab01e782371a751fb52cc3cb1c"
   dependencies:
     is-obj "^1.0.0"
 
@@ -2625,7 +2625,7 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-ms@^2.1.1:
+ms@^2.1.1, ms@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
 
