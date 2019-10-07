@@ -1,7 +1,7 @@
 'use strict'
 
 import test from 'ava'
-import gradient from './../'
+import gradient from '../'
 
 test('return gradient', t => {
   const res = gradient('new gradient')
